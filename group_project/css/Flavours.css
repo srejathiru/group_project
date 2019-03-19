@@ -1,0 +1,100 @@
+h1 {
+         text-align:center;
+         font-family: Courier New;
+         font-size: 800%;
+         padding: 30px;
+
+}
+
+h2{
+  color:#333333;
+}
+
+p{
+  font-size: 125%;
+  text-align: center;
+  color:#747474;
+  font-family:sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 20%;
+}
+
+.middle {
+  width: 55%;
+}
+
+.right {
+  width: 25%;
+}
+
+
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  margin-right:10px;
+}
+
+img {
+display: flex;
+padding: 5px;
+margin: 0 auto;
+border-radius: 90px;
+}
+
+p#introduction {
+  font-size: 100%;
+  padding:10px;
+  text-align: center;
+}
+
+h2#introduction{
+  text-align: center;
+}
+
+img#introduction {
+display: flex;
+padding: 10px;
+}
+
+.left1 {
+  width: 33%;
+}
+
+
+.right1 {
+  width: 33%;
+}
+
+.middle1{
+  width: 33%;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
